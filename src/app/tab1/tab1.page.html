@@ -1,17 +1,91 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+ <div id="header"> 
+  <ion-img id="icon-location"
+  src="../../assets/location.png"
+  alt="Foto de usuário"
+></ion-img>
+  <p>Taboão da Serra, SP</p>
+  <ion-img
+  src="../../assets/user.png"
+  alt="Foto de usuário"
+></ion-img>
+ </div>
+ <div id="titles">
+  <p id="sub-title">Seja bem-vindo,</p>
+  <p id="title">Vamos pedir itens,fresquinhos para você?</p>
+</div>
+<h1>Categorias</h1>
+<div id="categorys">  
+  <div id="cardsa">
+    <ion-img
+      src="../../assets/frutas.png"
+      alt="Foto de usuário">
+  </ion-img>
+  <div id="btna">
+    <p>Frutas</p>
+  </div>
+  </div>
+  <div id="cardsb">
+    <ion-img
+      src="../../assets/diversos.png"
+      alt="Foto de usuário">
+  </ion-img>
+  <div id="btnb">
+    <p>Diversos</p>
+  </div>
+  </div>
+  <div id="cardsc">
+    <ion-img
+      src="../../assets/acougue.png"
+      alt="Foto de usuário">
+  </ion-img>
+  <div id="btnc">
+    <p>Açougue</p>
+  </div>
+  </div>
+</div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<h1>Minhas Compras</h1>
+<div id="list">
+    <div id="fruit">      
+      <img id="img-fruit" src="../../assets/frutas.png" alt="">
+      <div class="txt">
+        <p>Frutas </p>
+        <p>27/05/2024</p>
+      </div>
+        <div class="price">
+        <p>$50,00</p>
+        <p> 5 itens</p>
+      </div>
+  </div>
+
+  <div id="divereses">      
+    <img id="img-choc" src="../../assets/diversos.png" alt="">
+    <div class="txt">
+      <p>Frutas </p>
+      <p>27/05/2024</p>
+    </div>
+    <div class="price">
+      <p>$35,40</p>
+      <p> 6 itens</p>
+    </div>
+</div>
+
+<div id="meat">      
+  <img id="img-acoug" src="../../assets/acougue.png" alt="">
+  <div class="txt">
+    <p>Frutas </p>
+    <p>27/05/2024</p>
+  </div>
+  <div class="price">
+  <p>$56,44</p>
+  <p> 3 itens</p>
+</div>
+</div>
+</div>
+
 </ion-content>

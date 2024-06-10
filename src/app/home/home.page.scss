@@ -1,0 +1,41 @@
+ion-content{
+    --background: snow;
+}
+#img-home{
+display: flex;
+justify-content: center;
+
+margin-top: 15%;
+}
+
+#img{
+    width: 50%;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#title-writen{
+    width: 49%;
+
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17  0%;
+}
+p{
+    color: black;
+    text-align: center;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+ion-button{
+    --border-radius: 4vh;
+    --border-width:239px;
+    --background:#7785DB;
+}

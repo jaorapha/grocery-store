@@ -1,0 +1,95 @@
+ion-content{
+    --background: snow;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: black;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color:black;
+}
+#icon-location{
+    width: 3%;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+    color:black;
+}
+ion-searchbar{
+    --placeholder-color: #1111;
+    --background:gray;
+}
+#cards{
+    width: 390px;
+    height: 176px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#card-fruit{
+    background:  #C5D7B1;
+    border-radius: 8px;
+    width: 180px;
+    height: 78px;
+    display: flex;  
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    align-items: center;
+}
+
+.img{
+    width: 78px;
+}
+
+.txt{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px; 
+    font-weight: 400;
+    width: 60%;
+    color: #050609;
+    height: 30%;
+}
+
+#card-deri{
+    background:  #92B6FA;
+    border-radius: 8px;
+    width: 180px;
+    height: 78px;
+    display: flex;  
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    align-items: center;
+}
+
+#card-acoug{
+    background: #F0BDB2;
+    border-radius: 8px;
+    width: 180px;
+    height: 78px;
+    display: flex;  
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    align-items: center;
+}
+
+#card-drink{
+    background:#60F8E9;
+    border-radius: 8px;
+    width: 180px;
+    height: 78px;
+    display: flex;  
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    align-items: center;
+}

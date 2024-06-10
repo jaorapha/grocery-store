@@ -1,0 +1,98 @@
+ion-content,ion-toolbar{
+    --background: snow;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: #050609;
+}
+#list{
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#fruit{
+    display: flex;  
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    align-items: center;
+}
+#img-fruit{
+    width: 20%;
+    background-color: #C5D7B1;
+    border-radius: 6vh;
+}
+.txt{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px; 
+    font-weight: 400;
+    width: 40%;
+    line-height: 40%;
+    color: #050609;
+    height: 50%;
+}
+#divereses{
+    display: flex; 
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    align-items: center;
+
+}
+#img-choc{
+    width: 20%;
+    background-color: #C5D7B1;
+    border-radius: 6vh;
+}
+
+#meat{
+    display: flex;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    align-items: center;
+}
+#img-acoug{
+    width: 20%;
+    background-color: #C5D7B1;
+    border-radius: 6vh;
+}
+
+.edit{
+   position: relative;
+   left: 20%;
+}
+
+#father{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+}
+
+#pay{
+    background: #7785DB;
+    border-radius: 16px;
+    width: 350px;
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#value-pay{
+    font-family: "Montserrat", sans-serif;
+    width: 35%;
+}
+
+#pay-now{
+    border: 2px solid snow;
+    border-radius: 16px;
+    width: 132px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}

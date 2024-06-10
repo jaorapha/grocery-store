@@ -1,17 +1,42 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div id="header"> 
+    <ion-img id="icon-location"
+    src="../../assets/location.png"
+    alt="Foto de usuário"
+  ></ion-img>
+    <p>Taboão da Serra, SP</p>
+    <ion-img
+    src="../../assets/user.png"
+    alt="Foto de usuário"
+  ></ion-img>
+   </div>
+   <ion-searchbar  placeholder="Pesquisar Produto  "></ion-searchbar>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div id="cards">
+
+   <div id="card-fruit">
+    <ion-img class="img" src="../../assets/frutas.png" alt=""></ion-img>
+    <p class="txt">Frutas</p>
+   </div>
+
+   <div id="card-deri">
+    <ion-img class="img" src="../../assets/diversos.png" alt=""></ion-img>
+    <p class="txt">Frutas</p>
+   </div>
+
+   <div id="card-acoug">
+    <ion-img class="img" src="../../assets/acougue.png" alt=""></ion-img>
+    <p class="txt">Frutas</p>
+   </div>
+
+   <div id="card-drink">
+    <ion-img class="img" src="../../assets/bebidas.png" alt=""></ion-img>
+    <p class="txt">Frutas</p>
+   </div>
+
+  </div>
 </ion-content>
